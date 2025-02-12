@@ -1,0 +1,33 @@
+- class_name: 1.技术支持
+  class_desc: 本网站的搭建由以下开源作者提供技术支持
+  link_list: 
+    - name: Hexo 
+      link: https://hexo.io/zh-cn/
+      avatar: https://d33wubrfki0l68.cloudfront.net/6657ba50e702d84afb32fe846bed54fba1a77add/827ae/logo.svg
+      descr: 快速、简单且强大的网志框架
+      siteshot: https://source.fomal.cc/siteshot/hexo.io.jpg
+      
+- class_name: 2.友情链接
+  class_desc: 一些好朋友~~
+  link_list:
+    - name: Fomalhaut🥝
+      link: https://fomal.cc/
+      avatar: /assets/head.jpg
+      descr: Future is now 🍭🍭🍭
+      siteshot: https://source.fomal.cc/siteshot/www.fomal.cn.jpg
+
+- class_name: 3.贴吧官网
+  class_desc: 伟大的云吧~
+  link_list:
+    - name: 邦多礼怀孕吧
+      link: https://tieba.baidu.com/f?kw=%E9%82%A6%E5%A4%9A%E5%88%A9%E6%80%80%E5%AD%95&fr=index
+      avatar: /img/yunba.jpg
+      descr: 邦邦逆天二创聚集地，能限制我们的只有度娘
+
+- class_name: 4.东山燃灯
+  class_desc: 传奇人物了属于是
+  link_list:
+    - name: 东山燃灯寺
+      link: https://space.bilibili.com/296330875?spm_id_from=333.1007.0.0
+      avatar: /img/dongshanrandeng.png
+      descr: 人死重于心碎。
