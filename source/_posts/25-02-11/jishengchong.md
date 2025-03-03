@@ -9,7 +9,7 @@ copyright_author_href: https://tieba.baidu.com/home/main?id=tb.1.14d3f224.57b3oU
 
 ---
 
-# 恋爱寄生虫【希灯无差】【邦多利怀孕吧】_百度贴吧
+# 恋爱寄生虫【希灯无差】
 
 **作者:区区一只yamada**
 

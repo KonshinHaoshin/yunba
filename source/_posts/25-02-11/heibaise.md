@@ -1,5 +1,5 @@
 ---
-title:  ［短篇/猫希］黑白色约定【邦多利怀孕吧】_百度贴吧
+title:  ［短篇/猫希］黑白色约定
 tags: 
   - 猫希
   - 已完结
@@ -10,7 +10,7 @@ copyright_author_href: https://tieba.baidu.com/home/main?id=tb.1.82c4b7b3.chIHl2
 
 ---
 
-# ［短篇/猫希］黑白色约定【邦多利怀孕吧】_百度贴吧
+# ［短篇/猫希］黑白色约定
 
 **作者:米诺0分少女**
 
