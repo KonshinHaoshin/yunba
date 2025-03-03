@@ -37,7 +37,7 @@
     "simple-oauth2": "^5.1.0"
   },
   "devDependencies": {
-    "@types/node": "^18.19.75",
+    "@types/node": "^22.13.8",
     "@types/simple-oauth2": "^5.0.7",
     "typescript": "^5.7.3"
   },
