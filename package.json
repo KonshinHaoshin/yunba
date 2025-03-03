@@ -12,7 +12,7 @@
     "version": "7.3.0"
   },
   "dependencies": {
-    "@vercel/analytics": "^1.4.1",
+    "@vercel/analytics": "^1.5.0",
     "hexo": "^7.0.0",
     "hexo-asset-img": "^1.1.0",
     "hexo-butterfly-envelope": "^1.0.15",
