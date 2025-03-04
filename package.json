@@ -33,7 +33,7 @@
     "hexo-theme-butterfly": "^5.2.2",
     "hexo-theme-landscape": "^1.0.0",
     "hexo-wordcount": "^6.0.1",
-    "mongodb": "^6.10.0",
+    "mongodb": "^6.14.1",
     "simple-oauth2": "^5.1.0"
   },
   "devDependencies": {
