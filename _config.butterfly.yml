@@ -19,7 +19,7 @@ nav:
 menu:
 
    首页: / || fas fa-home
-   登录: /admin/ || fas fa-sign-in-alt
+#   登录: /admin/ || fas fa-sign-in-alt  # 登录功能被优化了
    归档: /archives/ || fas fa-archive
    标签: /tags/ || fas fa-tags
    分类: /categories/ || fas fa-folder-open
@@ -104,7 +104,7 @@ footer_img: false
 # Website Background
 # Can set it to color or image url
 background:
-  - img/background_01.png
+  - /img/background_01.png
 
 cover:
   # Disable the cover or not
@@ -113,18 +113,31 @@ cover:
   archives_enable: true
   # When cover is not set, the default cover is displayed
   default_cover:
-    - img/default_cover_01.png
-    - img/default_cover_02.png
-    - img/default_cover_03.png
-    - img/default_cover_04.png
-    - img/default_cover_05.png
-    - img/default_cover_06.jpg
-    - img/default_cover_07.jpg
-    - img/default_cover_08.jpg
-    - img/default_cover_09.jpg
-    - img/default_cover_10.png
-    - img/default_cover_11.png
-    - img/default_cover_12.png
+    - /img/default_cover_01.png
+    - /img/default_cover_02.png
+    - /img/default_cover_03.png
+    - /img/default_cover_04.png
+    - /img/default_cover_05.png
+    - /img/default_cover_06.jpg
+    - /img/default_cover_07.jpg
+    - /img/default_cover_08.jpg
+    - /img/default_cover_09.jpg
+    - /img/default_cover_10.png
+    - /img/default_cover_11.png
+    - /img/default_cover_12.png
+    - /img/default_cover_13.png
+    - /img/default_cover_14.png
+    - /img/default_cover_15.png
+    - /img/default_cover_16.png
+    - /img/default_cover_17.png
+    - /img/default_cover_18.png
+    - /img/default_cover_19.png
+    - /img/default_cover_20.png
+    - /img/default_cover_21.png
+    - /img/default_cover_22.png
+    - /img/default_cover_23.png
+    - /img/default_cover_24.png
+    - /img/default_cover_25.png
 
     # - xxx.jpg
 
@@ -547,7 +560,7 @@ comments:
   # Leave it empty if you don't need comments
   # Choose: Disqus/Disqusjs/Livere/Gitalk/Valine/Waline/Utterances/Facebook Comments/Twikoo/Giscus/Remark42/Artalk
   # Format of two comments system : Disqus,Waline
-  use: Twikoo
+  use: twikoo
   # Display the comment name next to the button
   text: true
   # Lazyload: The comment system will be load when comment element enters the browser's viewport.
@@ -638,7 +651,7 @@ twikoo:
   envId: https://www.yunbatwikoo.fun/
   region:
   # Use Twikoo visitor count as the page view count
-  visitor: false
+  visitor: true
   option:
 
 # Giscus
@@ -1078,13 +1091,41 @@ inject:
     - <link rel="stylesheet" href="/css/readPercent.css">
     - <link rel="stylesheet" href="/css/custom.css" media="defer" onload="this.media='all'">
     - <link rel="stylesheet" href="/css/universe.css">
-
+    - <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    - <script>
+      var _hmt = _hmt || [];
+      (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?400917ecddaad4063ab27704f55c2796";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+      })();
+      </script>
+    # 一个百度统计大陆内，一个统计外网
     # - <link rel="stylesheet" href="/xxx.css">
   bottom:
     - <script defer data-pjax src="/js/readPercent.js"></script>
     - <script defer data-pjax src="/js/emoji.js"></script>
     - <canvas id="universe"></canvas>
     - <script defer src="/js/universe.js"></script>
+    - >
+      <script>
+        document.addEventListener('DOMContentLoaded', function () {
+          if (location.pathname === '/' || location.pathname === '/index.html') {
+            Swal.fire({
+              title: '🎉 欢迎访问邦多礼庇护所！',
+              html: `
+                <p>欢迎加入官方QQ群参与讨论：</p>
+                <p style="font-weight:bold; font-size:18px;">567786491</p>
+                <p><i>来人陪我聊天求你们了 🙏</i></p>
+              `,
+              icon: 'success',
+              confirmButtonText: '关闭',
+              confirmButtonColor: '#3085d6',
+            });
+          }
+        });
+      </script>
     # - <script src="xxxx"></script>
 
 # CDN Settings

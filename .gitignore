@@ -1,1 +1,6 @@
 .vercel
+node_modules
+output
+.idea
+.github
+.deploy_git
